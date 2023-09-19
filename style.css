@@ -1,0 +1,151 @@
+body {
+    min-width: 1050px;
+}
+
+#header {
+    background-color:#ECF2FF;
+    width:100%;
+}
+
+#header > .container {
+    display:flex;
+    justify-content: space-around;
+}
+
+#header > .container img {
+    border: solid #E3DFFD 5px;
+    border-radius: 50%;
+    margin: 25px;
+}
+
+#header > .container p {
+    font-size: 25px;
+    align-self: stretch;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.portrait {
+    display:flex;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Cormorant Infant', serif;
+    color: rgb(61, 64, 67);
+    font-size: 65px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height:30vh;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.g-container > p {
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    grid-column-start:4;
+    grid-column-end: 5;
+}
+
+.title-about {
+    display: flex;
+    justify-content: flex-start;
+}
+
+h2 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 50px;
+    color: rgb(61, 64, 67);
+}
+
+a {
+    color: white;
+}
+
+.resume-paragraph {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+
+.s-container {
+    display:flex;
+    justify-content: space-around;
+
+}
+.s-container .container img {
+    border: 5px solid #E3DFFD;
+    border-radius:10%;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+}
+
+.caption-container {
+    display: flex;
+    flex-direction: column;
+    width:350px;
+}
+
+.a-container {
+    background-color:#ECF2FF;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a-container img {
+    border: solid #E3DFFD 5px;
+    border-radius: 50%;
+    margin: 25px;
+}
+
+.a-container p {
+    font-size: 25px;
+    align-self: stretch;
+}
+
+.about-info {
+    flex-basis: 650px;
+    margin-left: 150px;
+}
+
+.mountain {
+    margin-right:150px
+}
+
+.label {
+    font-family: 'Karla', sans-serif;
+}
+
+.btn {
+    font-family: 'Karla', sans-serif;
+}
+
+#contact .container {
+display:flex;
+justify-content: center;
+}
+
+.c-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+@media (max-width:576px) {
+    .s-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
